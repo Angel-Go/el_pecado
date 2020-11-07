@@ -43,7 +43,7 @@
 .ctnd-FraseBienvenida>p{
     font-size: 1.8em;
     text-align: center;
-    color: rgb(250, 25, 25);
+    color: rgb(226, 19, 19);
     text-shadow: 0 0 8px black;
     margin: 15px 2px;
 }
@@ -75,7 +75,7 @@
     height: 35px;
     padding: 2px;
     border-radius: 50%;
-    background-color: rgb(250, 25, 25);
+    background-color: rgb(226, 19, 19);
 }
 
 .ctnd-RedesSociales img:hover{
@@ -84,7 +84,7 @@
     height: 38px;
     height: 38px;
     padding: 3px;
-    background-color: rgb(255, 41, 41);
+    background-color: rgb(226, 19, 19);
 }
 
 @media screen and (max-width: 499px){
