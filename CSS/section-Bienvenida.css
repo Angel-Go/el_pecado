@@ -1,0 +1,180 @@
+.Bienvenida{
+    height: 420px;
+    background-image: url(../Pictures/jakub-kapusnak-1TkhHPOubu4-unsplash_edited.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+}
+
+.ctnd-Bienvenida{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ctnd-TituloBienvenida{
+    height: 40%;
+    width: 98%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ctnd-FraseBienvenida{
+    height: 30%;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ctnd-RedesSociales{
+    height: 15%;
+    width: 35%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ctnd-TituloBienvenida>h1{
+    text-align: center;
+    color: white;
+    margin: 10px 2px;
+}
+
+.ctnd-FraseBienvenida>p{
+    font-size: 1.8em;
+    text-align: center;
+    color: rgb(250, 25, 25);
+    text-shadow: 0 0 8px black;
+    margin: 15px 2px;
+}
+
+.an-apareceRevote{
+    animation-name: apareceRevote;
+    animation-duration: 2.2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes apareceRevote{
+    0%, 10%{opacity: 0;}
+    20%{opacity: 0.2;}
+    30%{opacity: 0.4;}
+    40%{opacity: 0.6;}
+    50%{font-size: 2.2em;}
+}
+
+.ctnd-RedesSociales>a{
+    height: 70%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctnd-RedesSociales img{
+    height: 35px;
+    height: 35px;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: rgb(250, 25, 25);
+}
+
+.ctnd-RedesSociales img:hover{
+    transition: 250ms all;
+    cursor: pointer;
+    height: 38px;
+    height: 38px;
+    padding: 3px;
+    background-color: rgb(255, 41, 41);
+}
+
+@media screen and (max-width: 499px){
+    .Bienvenida{
+        height: 320px;
+    }
+
+    .ctnd-FraseBienvenida{
+        width: 100%;
+    }
+
+    .ctnd-FraseBienvenida{
+        width: 90%;
+    }
+
+    .ctnd-TituloBienvenida>h1{
+        font-size: 2.3em;
+    }
+
+    .ctnd-FraseBienvenida>p{
+        font-size: 1.3em;
+    }
+
+    @keyframes apareceRevote{
+        0%, 10%{opacity: 0;}
+        20%{opacity: 0.2;}
+        30%{opacity: 0.4;}
+        40%{opacity: 0.6;}
+        50%{font-size: 1.5em;}
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px){
+    .ctnd-FraseBienvenida{
+        width: 80%;
+    }
+
+    .ctnd-TituloBienvenida>h1{
+        font-size: 3.4em;
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+    .ctnd-FraseBienvenida{
+        width: 60%;
+    }
+
+    .ctnd-RedesSociales{
+        width: 30%;
+    }
+
+    .ctnd-TituloBienvenida>h1{
+        font-size: 4.2em;
+    }
+
+}
+
+@media screen and (min-width: 901px) and (max-width: 1024px){
+    .ctnd-FraseBienvenida{
+        width: 50%;
+    }
+
+    .ctnd-RedesSociales{
+        width: 25%;
+    }
+
+    .ctnd-TituloBienvenida>h1{
+        font-size: 4.4em;
+    }
+
+}
+
+@media screen and (min-width: 1401px){
+    .Bienvenida{
+        height: 600px;
+    }
+    .ctnd-TituloBienvenida>h1{
+        font-size: 5em;
+    }
+
+    .ctnd-FraseBienvenida>p{
+        font-size: 2.2em;
+    }   
+
+    @keyframes apareceRevote{
+        0%, 10%{opacity: 0;}
+        20%{opacity: 0.2;}
+        30%{opacity: 0.4;}
+        40%{opacity: 0.6;}
+        50%{font-size: 2.6em;}
+    }
+}

@@ -1,0 +1,246 @@
+.Carta{
+    height: 650px;
+    background-image: url(../Pictures/akshar-dave-lXIpMj1AFUI-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+}
+
+.ctnd-Carta{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.ctnd-tituloCarta{
+    height: 18%;
+    width: 99%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctnd-Menu{
+    height: 78%;
+    width: 99%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ctnd-tituloCarta>h2{
+    margin: 8px auto;
+    color: #021620;
+}
+
+.ctnd-tituloCarta>p{
+    margin: 8px auto;
+    font-size: 1.8em;
+    color: rgb(250, 25, 25);
+}
+
+.ctnd-Tipo{
+    height: 95%;
+    width: 30%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0px;
+    border: 2px dotted #021620;
+}
+
+.ctnd-tituloTipo{
+    height: 12%;
+    width: 90%;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #021620;
+}
+
+.ctnd-contenidoTipo{
+    height: 86%;
+    width: 90%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ctnd-tituloTipo>h3{
+    margin: 8px auto;
+}
+
+.subtituloTipo{
+    margin: 5px 0px;
+    text-align: left;
+}
+
+.ctnd-variaciones{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items{
+    padding-inline-start: 20px;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    list-style: circle;
+}
+
+.precios{
+    padding-inline-start: 0;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    list-style: none;
+}
+
+li{
+    padding-bottom: 2px;
+}
+
+.precios>li{
+    color: rgb(250, 25, 25);
+}
+
+@media screen and (max-width: 499px){
+    .Carta{
+        height: 1300px;
+    }
+    .ctnd-Carta{
+        width: 96%;
+    }
+    .ctnd-tituloCarta{
+        height: 8%;
+        width: 99%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ctnd-Menu{
+        height: 90%;
+        width: 99%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ctnd-tituloCarta>h2{
+        margin: 8px auto;
+        font-size: 2.4em;
+    }
+
+    .ctnd-tituloCarta>p{
+        font-size: 1.4em;
+    }
+    .ctnd-Tipo{
+        width: 95%;
+    }
+    .Alimentos{
+        height: 42%;
+    }
+    .Bebidas{
+        height: 32%;
+    }
+    .Postres{
+        height: 14%;
+    }
+    .ctnd-tituloTipo{
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px){
+    .Carta{
+        height: 1300px;
+    }
+    .ctnd-Carta{
+        width: 96%;
+    }
+    .ctnd-tituloCarta{
+        height: 8%;
+        width: 99%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ctnd-Menu{
+        height: 90%;
+        width: 99%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ctnd-tituloCarta>h2{
+        margin: 8px auto;
+        font-size: 2.4em;
+    }
+
+    .ctnd-tituloCarta>p{
+        font-size: 1.4em;
+    }
+    .ctnd-Tipo{
+        width: 95%;
+    }
+    .Alimentos{
+        height: 42%;
+    }
+    .Bebidas{
+        height: 32%;
+    }
+    .Postres{
+        height: 14%;
+    }
+    .ctnd-tituloTipo{
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+    .Carta{
+        height: 1300px;
+    }
+    .ctnd-Carta{
+        height: 97%;
+        width: 95%;
+    }
+    .ctnd-tituloCarta{
+        height: 8%;
+        width: 70%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ctnd-Menu{
+        height: 90%;
+        width: 70%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ctnd-tituloCarta>h2{
+        margin: 8px auto;
+        font-size: 2.4em;
+    }
+
+    .ctnd-tituloCarta>p{
+        font-size: 1.4em;
+    }
+    .ctnd-Tipo{
+        width: 95%;
+    }
+    .Alimentos{
+        height: 42%;
+    }
+    .Bebidas{
+        height: 32%;
+    }
+    .Postres{
+        height: 14%;
+    }
+    .ctnd-tituloTipo{
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1024px){
+
+}
